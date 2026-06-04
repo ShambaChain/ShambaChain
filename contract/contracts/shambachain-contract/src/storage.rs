@@ -15,6 +15,7 @@ pub enum DataKey {
     Admin,
     LoanCounter,
     FarmerList,
+    AgentList,
 
     // Per-farmer
     FarmerProfile(Address),
@@ -24,4 +25,7 @@ pub enum DataKey {
 
     // Per loan 
     LoanApp(u64),
+
+    // Agent Registry
+    AgentProfile(Address), 
 }
