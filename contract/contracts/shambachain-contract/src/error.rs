@@ -14,17 +14,26 @@ pub enum ContractError {
     // Entry
     InvalidEntryType = 5,
     InvalidAmount = 6,
+    EntryNotFound = 7,
+    EntryAlreadyVerified = 8,
+    EntryFlagged = 9,
 
     // Loan
-    LoanNotFound = 7,
-    ActiveLoanExists = 8,
-    ScoreTooLow = 9, 
-    AmountExceedsLimit = 10,
-    LoanNotPending = 11,
-    LoanNotDisbursed = 12,
-    NotLoanLender = 13,
-    OverRepayment = 14,
+    LoanNotFound = 10,
+    ActiveLoanExists = 11,
+    ScoreTooLow = 12, 
+    AmountExceedsLimit = 13,
+    LoanNotPending = 14,
+    LoanNotDisbursed = 15,
+    NotLoanLender = 16,
+    OverRepayment = 17,
+
+    // Agent
+    AgentNotFound = 18,
+    AgentAlreadyExists = 19,
+    AgentNotActive = 20,
+    NotAnAgent = 21,
 
     // General 
-    NotInitialized = 15,
+    NotInitialized = 22,
 }
