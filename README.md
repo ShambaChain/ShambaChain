@@ -24,11 +24,11 @@ Stellar Testnet
 
 Across Africa, millions of farmers remain financially excluded because:
 
-- No formal credit history  
-- Lack of verifiable income records  
-- High collateral requirements from lenders  
-- Slow and manual loan approval systems  
-- Limited access to insurance due to fraud risks  
+- No formal credit history
+- Lack of verifiable income records
+- High collateral requirements from lenders
+- Slow and manual loan approval systems
+- Limited access to insurance due to fraud risks
 
 As a result, farmers who feed nations are often locked out of financial systems.
 
@@ -58,6 +58,7 @@ Farmers can log harvests, sales, and transactions on-chain, building a **trust-b
 ## ⚙️ How It Works
 
 ### 🌱 1. Farmer Onboarding
+
 - Farmers create a **Stellar wallet identity**
 - Receive a unique **Shamba ID (on-chain identity)**
 - Optional QR code for quick access and offline-friendly verification
@@ -65,6 +66,7 @@ Farmers can log harvests, sales, and transactions on-chain, building a **trust-b
 ---
 
 ### 📊 2. Farming Activity Logging
+
 Farmers record key activities:
 
 - 🌾 Harvest yield (e.g., maize, coffee, wheat)
@@ -76,12 +78,13 @@ All records are stored as **immutable blockchain transactions**.
 ---
 
 ### 📈 3. Shamba Score (Credit System)
+
 A dynamic credit score is generated based on:
 
-- Consistency of harvests  
-- Income stability over time  
-- Sales frequency  
-- Historical activity reliability  
+- Consistency of harvests
+- Income stability over time
+- Sales frequency
+- Historical activity reliability
 
 Farmers are categorized into tiers:
 - 🟢 Bronze Farmer  
@@ -92,16 +95,18 @@ Farmers are categorized into tiers:
 ---
 
 ### 🏦 4. Loans & Financing
-- Farmers request loans directly through the platform  
-- Lenders verify Shamba Score and on-chain history  
+
+- Farmers request loans directly through the platform
+- Lenders verify Shamba Score and on-chain history
 - Approved loans are disbursed instantly in **USDC via Stellar**
 
 ---
 
 ### 🛡️ 5. Insurance & Risk Assessment (Extension)
-- Insurers can assess farmer reliability using on-chain data  
-- Faster claim approvals  
-- Reduced fraud risk and manual verification  
+
+- Insurers can assess farmer reliability using on-chain data
+- Faster claim approvals
+- Reduced fraud risk and manual verification
 
 ---
 
@@ -126,11 +131,11 @@ Fraud damages reputation permanently, making honesty the most valuable strategy.
 
 ## 🌍 Why ShambaChain Matters
 
-- 🌾 Supports smallholder farmers (Africa’s food backbone)  
-- 💸 Unlocks access to fair credit and capital  
-- 🔐 Builds trust through transparent financial history  
-- ⚡ Enables instant global payments via Stellar  
-- 📊 Turns informal agriculture into a data-driven economy  
+- 🌾 Supports smallholder farmers (Africa’s food backbone)
+- 💸 Unlocks access to fair credit and capital
+- 🔐 Builds trust through transparent financial history
+- ⚡ Enables instant global payments via Stellar
+- 📊 Turns informal agriculture into a data-driven economy
 
 ---
 
@@ -143,6 +148,18 @@ It is:
 > A **decentralized agricultural credit infrastructure** that converts real-world farming activity into financial identity.
 
 ---
+## 🌐 Why Stellar & Soroban
+
+ShambaChain leverages Stellar and Soroban to provide:
+
+- Fast and low-cost transactions
+- Secure wallet-based farmer identities
+- Transparent and immutable activity records
+- USDC-powered lending and repayments
+- Smart contract automation for agricultural finance
+
+By building on Stellar, ShambaChain enables financial inclusion at scale while keeping transaction costs affordable for smallholder farmers.
+
 ## 🌐 Why Stellar & Soroban
 
 ShambaChain leverages Stellar and Soroban to provide:
@@ -237,21 +254,21 @@ http://localhost:5173
 
 ## 📸 Key Features Preview
 
-- Farmer Dashboard with Shamba Score  
-- Activity logging interface (harvest & sales)  
-- Loan request and approval flow  
-- Lender verification dashboard  
-- QR-based farmer identity system  
+- Farmer Dashboard with Shamba Score
+- Activity logging interface (harvest & sales)
+- Loan request and approval flow
+- Lender verification dashboard
+- QR-based farmer identity system
 
 ---
 
 ## 🔥 Demo Flow (Hackathon Pitch)
 
-1. Farmer registers and gets a Shamba ID  
-2. Logs harvest → score increases  
-3. Lender views farmer profile  
-4. Loan request submitted  
-5. USDC loan approved and sent instantly  
+1. Farmer registers and gets a Shamba ID
+2. Logs harvest → score increases
+3. Lender views farmer profile
+4. Loan request submitted
+5. USDC loan approved and sent instantly
 
 > End-to-end financial empowerment in under 2 minutes.
 
@@ -299,18 +316,19 @@ It brings **real financial inclusion** to farmers who have been historically exc
 
 ## 📌 Built For
 
-- Stellar Give Kenya Bootcamp  
-- Real-world financial inclusion innovation  
-- Web3 for social impact in Africa  
+- Stellar Give Kenya Bootcamp
+- Real-world financial inclusion innovation
+- Web3 for social impact in Africa
 
 ---
 
 ## 🤝 Contribution
 
 This project is open for collaboration in:
-- DeFi for agriculture  
-- Identity systems  
-- Financial inclusion tools  
+
+- DeFi for agriculture
+- Identity systems
+- Financial inclusion tools
 
 ---
 
