@@ -6,6 +6,20 @@ ShambaChain is a **blockchain-powered agricultural credit identity system** buil
 
 ---
 
+## 📦 Live Demo
+
+### 🌐 Frontend
+
+https://shambachain-one.vercel.app
+
+### 🔗 Smart Contract (Testnet)
+
+`CDQXJR6D75ZK654NUW6GX75JK7DO4HCHL6XHAMOVMDZM4SE24PNNQEVF`
+
+### 🌍 Network
+
+Stellar Testnet
+
 ## 🚀 Problem Statement
 
 Across Africa, millions of farmers remain financially excluded because:
@@ -29,6 +43,17 @@ Farmers can log harvests, sales, and transactions on-chain, building a **trust-b
 > “If you can farm it, you can prove it. If you can prove it, you can finance it.”
 
 ---
+
+## ✨ Features
+
+- Farmer onboarding with Stellar wallets
+- Shamba ID generation
+- Harvest and sales activity logging
+- Dynamic Shamba Score generation
+- Loan request and financing workflows
+- QR-based farmer identity verification
+- Multi-layer fraud prevention system
+- USDC-powered lending infrastructure
 
 ## ⚙️ How It Works
 
@@ -61,7 +86,8 @@ A dynamic credit score is generated based on:
 Farmers are categorized into tiers:
 - 🟢 Bronze Farmer  
 - 🔵 Silver Farmer  
-- 🟡 Gold Farmer  
+- 🟡 Gold Farmer 
+- 🟡 Platinum Farmer
 
 ---
 
@@ -78,6 +104,25 @@ Farmers are categorized into tiers:
 - Reduced fraud risk and manual verification  
 
 ---
+
+## 🛡️ 5-Layer Verification Model
+
+ShambaChain uses a multi-layer trust system to ensure farmer records are credible and resistant to fraud.
+
+### Layer 1 — Cryptographic Identity
+Every activity is signed using the farmer's Stellar wallet.
+
+### Layer 2 — Behavioural Analytics
+The platform detects suspicious patterns and inconsistent records.
+
+### Layer 3 — Agent Verification
+Cooperative officers and field agents can attest to farming activities.
+
+### Layer 4 — Satellite Validation
+Future integration with weather and satellite crop monitoring systems.
+
+### Layer 5 — Economic Incentives
+Fraud damages reputation permanently, making honesty the most valuable strategy.
 
 ## 🌍 Why ShambaChain Matters
 
@@ -98,6 +143,17 @@ It is:
 > A **decentralized agricultural credit infrastructure** that converts real-world farming activity into financial identity.
 
 ---
+## 🌐 Why Stellar & Soroban
+
+ShambaChain leverages Stellar and Soroban to provide:
+
+- Fast and low-cost transactions
+- Secure wallet-based farmer identities
+- Transparent and immutable activity records
+- USDC-powered lending and repayments
+- Smart contract automation for agricultural finance
+
+By building on Stellar, ShambaChain enables financial inclusion at scale while keeping transaction costs affordable for smallholder farmers.
 
 ## 🖥️ Tech Stack
 
@@ -108,6 +164,76 @@ It is:
 - 🎨 UI: Modern dashboard (mobile-first design)
 
 ---
+
+## 📂 Project Structure
+
+```text
+.
+├── contract/
+├── frontend/
+├── README.md
+├── .gitignore
+├── Lisence
+├── README.md
+```
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+
+```bash
+# Rust
+rustup update
+
+# WASM Target
+rustup target add wasm32v1-none
+
+# Stellar CLI
+cargo install --locked stellar-cli --features opt
+
+# Node.js v18+
+node --version
+```
+
+### Clone Repository
+
+```bash
+git clone https://github.com/ShambaChain/ShambaChain.git
+
+```
+```bash
+cd ShambaChain
+```
+
+### Smart Contract Setup
+
+```bash
+cd contract
+
+stellar contract build
+```
+
+Run tests:
+
+```bash
+cargo test
+```
+
+### Frontend Setup
+
+```bash
+cd frontend
+
+npm install
+
+npm run dev
+```
+
+Application runs at:
+
+```text
+http://localhost:5173
+```
 
 ## 📸 Key Features Preview
 
@@ -141,6 +267,30 @@ It brings **real financial inclusion** to farmers who have been historically exc
 
 ---
 
+## 🗺️ Roadmap
+
+### v1 (Current MVP)
+- Farmer onboarding
+- Activity logging
+- Shamba Score generation
+- Loan request flow
+- Stellar wallet integration
+
+### v1.1
+- Satellite verification
+- Weather oracle integration
+- Agent attestation portal
+
+### v2
+- Insurance marketplace
+- Cooperative dashboards
+- Multi-country expansion
+
+### v3
+- Mainnet deployment
+- AI-powered agricultural risk analysis
+- Pan-African farmer reputation network
+
 ## 🏆 Vision
 
 > “A future where every farmer has a verifiable financial identity, and no good farmer is denied credit because they lack paperwork.”
@@ -171,3 +321,13 @@ ShambaChain is built with one goal:
 > To turn farming activity into financial freedom.
 
 ---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Author
+
+Developed by James Wasonga & Lucas Enock.
