@@ -87,10 +87,10 @@ A dynamic credit score is generated based on:
 - Historical activity reliability
 
 Farmers are categorized into tiers:
-
-- 🟢 Bronze Farmer
-- 🔵 Silver Farmer
-- 🟡 Gold Farmer
+- 🟢 Bronze Farmer  
+- 🔵 Silver Farmer  
+- 🟡 Gold Farmer 
+- 🟡 Platinum Farmer
 
 ---
 
@@ -115,23 +115,18 @@ Farmers are categorized into tiers:
 ShambaChain uses a multi-layer trust system to ensure farmer records are credible and resistant to fraud.
 
 ### Layer 1 — Cryptographic Identity
-
 Every activity is signed using the farmer's Stellar wallet.
 
 ### Layer 2 — Behavioural Analytics
-
 The platform detects suspicious patterns and inconsistent records.
 
 ### Layer 3 — Agent Verification
-
 Cooperative officers and field agents can attest to farming activities.
 
 ### Layer 4 — Satellite Validation
-
 Future integration with weather and satellite crop monitoring systems.
 
 ### Layer 5 — Economic Incentives
-
 Fraud damages reputation permanently, making honesty the most valuable strategy.
 
 ## 🌍 Why ShambaChain Matters
@@ -153,6 +148,17 @@ It is:
 > A **decentralized agricultural credit infrastructure** that converts real-world farming activity into financial identity.
 
 ---
+## 🌐 Why Stellar & Soroban
+
+ShambaChain leverages Stellar and Soroban to provide:
+
+- Fast and low-cost transactions
+- Secure wallet-based farmer identities
+- Transparent and immutable activity records
+- USDC-powered lending and repayments
+- Smart contract automation for agricultural finance
+
+By building on Stellar, ShambaChain enables financial inclusion at scale while keeping transaction costs affordable for smallholder farmers.
 
 ## 🌐 Why Stellar & Soroban
 
@@ -178,6 +184,7 @@ By building on Stellar, ShambaChain enables financial inclusion at scale while k
 
 ## 📂 Project Structure
 
+```text
 .
 ├── contract/
 ├── frontend/
@@ -185,6 +192,7 @@ By building on Stellar, ShambaChain enables financial inclusion at scale while k
 ├── .gitignore
 ├── Lisence
 ├── README.md
+```
 
 ## 🚀 Installation & Setup
 
@@ -209,6 +217,8 @@ node --version
 ```bash
 git clone https://github.com/ShambaChain/ShambaChain.git
 
+```
+```bash
 cd ShambaChain
 ```
 
@@ -277,7 +287,6 @@ It brings **real financial inclusion** to farmers who have been historically exc
 ## 🗺️ Roadmap
 
 ### v1 (Current MVP)
-
 - Farmer onboarding
 - Activity logging
 - Shamba Score generation
@@ -285,19 +294,16 @@ It brings **real financial inclusion** to farmers who have been historically exc
 - Stellar wallet integration
 
 ### v1.1
-
 - Satellite verification
 - Weather oracle integration
 - Agent attestation portal
 
 ### v2
-
 - Insurance marketplace
 - Cooperative dashboards
 - Multi-country expansion
 
 ### v3
-
 - Mainnet deployment
 - AI-powered agricultural risk analysis
 - Pan-African farmer reputation network
@@ -342,4 +348,4 @@ This project is licensed under the MIT License.
 
 ## Author
 
-Developed by James Wasonga & Lukas Enock.
+Developed by James Wasonga & Lucas Enock.
