@@ -226,7 +226,10 @@ cd ShambaChain
 
 ```bash
 cd contract
+```
+Build the contract:
 
+```bash
 stellar contract build
 ```
 
@@ -240,9 +243,15 @@ cargo test
 
 ```bash
 cd frontend
+```
 
+Run: 
+
+```bash
 npm install
+```
 
+```bash
 npm run dev
 ```
 
