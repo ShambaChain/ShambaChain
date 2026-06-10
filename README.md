@@ -355,6 +355,6 @@ This project is licensed under the MIT License.
 
 ---
 
-## Author
+## Author ( Contributors )
 
-Developed by James Wasonga & Lucas Enock.
+Developed by James Ouma Wasonga & Lucas Enock.
