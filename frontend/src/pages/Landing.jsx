@@ -216,7 +216,7 @@ export default function Landing() {
           </div>
 
           {/* ── Stats — 4 columns, centred ─────────────────────────────── */}
-          <div style={{
+          <div className="hero-stats-grid" style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(4, 1fr)',
             gap: '0 24px',
