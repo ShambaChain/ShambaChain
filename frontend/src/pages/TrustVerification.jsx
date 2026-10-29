@@ -338,7 +338,7 @@ export default function TrustVerification() {
               </ul>
             </Accordion>
 
-            <Accordion q="What if a farmer loses their phone or secret key — do they lose everything?">
+            <Accordion q="What if a farmer loses their phone or secret key, do they lose everything?">
               ShambaChain separates identity from device. The farmer's credit history lives on the Stellar blockchain permanently — tied to their public key, not their phone.
               If a farmer loses their device but kept their secret key (shown and advised to save at registration), they can restore their full account on any device via the ShambaChain Login page.
               In v1.1 we plan a Social Recovery system: the farmer nominates 3 trusted contacts (family, cooperative officer, village elder). Any 2 of 3 can co-sign a key rotation — similar to how Stellar's multi-sig works.
@@ -350,7 +350,7 @@ export default function TrustVerification() {
               ShambaChain's credit score is equally valid in all 4 countries — lenders can view and lend to farmers across borders through a single dashboard.
             </Accordion>
 
-            <Accordion q="What prevents a lender from being dishonest — e.g. claiming they disbursed when they didn't?">
+            <Accordion q="What prevents a lender from being dishonest e.g. claiming they disbursed when they didn't?">
               All disbursements are Stellar transactions. The lender cannot claim they sent USDC without the actual on-chain transaction hash existing. ShambaChain reads disbursement status directly from the Stellar ledger — there is no self-reporting involved on the lender side.
               In the escrow model (v1.1), funds are locked into a Soroban smart contract at approval — the farmer can see the USDC is held in escrow before they accept the loan terms.
             </Accordion>
