@@ -158,11 +158,11 @@ export default function Landing() {
             maxWidth: 600,
             marginBottom: 48,
           }}>
-            ShambaChain helps Africa's 60+ million smallholder farmers across{' '}
+            ShambaChain helps Africa's smallholder farmers across{' '}
             <strong style={{ color: 'rgba(245,237,216,0.9)', fontWeight: 600 }}>
               Kenya, Uganda, Tanzania, Ethiopia &amp; Nigeria
             </strong>{' '}
-            build a tamper-proof financial record on the Stellar blockchain,
+            build a tamper-proof financial record onchain,
             unlocking loans, crop insurance, and microfinance without a bank account.
           </p>
 
