@@ -127,7 +127,7 @@ export default function Landing() {
             marginBottom: 36,
           }}>
             <Sprout size={13} />
-            BUILT ON STELLAR BLOCKCHAIN · AFRICA
+            BUILT ONCHAIN · AFRICA
           </div>
 
           {/* Headline */}
