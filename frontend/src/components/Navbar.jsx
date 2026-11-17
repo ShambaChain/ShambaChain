@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from 'react-router-dom'
 import { useApp } from '../context/AppContext.jsx'
 import { shortKey } from '../utils/stellarUtils.js'
 import { Menu, X, Sprout, LayoutDashboard, FileText, Star, Landmark, History, LogOut } from 'lucide-react'
+import logo from '../assets/logo.png'
 
 export default function Navbar() {
   const { state, dispatch, notify } = useApp()
@@ -53,7 +54,8 @@ export default function Navbar() {
         {/* ── Logo ──────────────────────────────────────────────────────── */}
         <button onClick={() => navigate('/')} style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 9 }}>
-            <Sprout size={22} color="#4CAF77" />
+            {/* <Sprout size={22} color="#4CAF77" /> */}
+            <img src={logo} alt="ShambaChain Logo" style={{ width: 24, height: 24, objectFit: 'contain' }} />
             <span style={{
               fontFamily: 'var(--font-display)',
               fontSize: 21,
